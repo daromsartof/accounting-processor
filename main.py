@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuration OpenAI
-client = OpenAI(api_key=os.getenv("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"))
+client = OpenAI(api_key=os.getenv("OPEN_AI"))
 
 # Configuration EasyOCR
 reader = easyocr.Reader(['fr', 'en'])
